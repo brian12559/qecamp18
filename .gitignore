@@ -1,2 +1,5 @@
 *.pyc
 *.log
+__pycache__/
+.project
+.pydevproject
