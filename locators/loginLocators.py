@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 
 class LoginPageLocators(object):
     USERNAME      = (By.XPATH, '//input[contains(@id,\'username\')]') #an example using contains
-    PASSWORD1      = (By.ID, 'com.polarion.password') #works on prod
+    PASSWORD1      = (By.ID, 'com.polarion.password') #works on prod prev version
     PASSWORD2      =  (By.XPATH, "//*[contains(@id, '.password')]") #SR3
     PASSWORD3a      = (By.XPATH, "//*[contains(@id, 'j_password')]") #SR3
     PASSWORD3      = (By.ID, 'j_password') #SR3   an exact example

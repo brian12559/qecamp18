@@ -96,6 +96,28 @@ class LoginPage1(Page):
             logging.info("finished loading loading polarion")
             logging.info("time to load Polarion -> %s" % str(time.time() - startloading))
             return True
+        
+    def waitForPolarion2(self, maxwaittime):
+        startloading = time.time()
+        try:  
+            self.driver.implicitly_wait(3)
+            elapsedtime = time.time() - startloading         
+            while (self.driver.find_element(*LoginPageLocators.LOADING) and elapsedtime < maxwaittime): 
+                elapsedtime = time.time() - startloading
+                logging.info("still waiting...%s" % str(elapsedtime))
+                time.sleep(3)
+            logging.info("Polarion did not finish loading in %s seconds" % str(maxwaittime))
+            return False
+        except Exception as e:
+            #do nothing...report has finished loading because we got an error looking for loading  
+            #setting default imlicit wait time back to 10
+            self.driver.implicitly_wait(10)   
+            logging.info("finished loading loading polarion")
+            #need to take into account that the wait for loading waits x secs, so split the difference between last successful check
+            #and this one
+            ltime = str(((time.time() - startloading) + elapsedtime)/2 + 3)
+            logging.info("time to load Polarion -> %s" % ltime)
+            return ltime
 
 class LogoutPage(Page):
     def check_page_loaded(self):
