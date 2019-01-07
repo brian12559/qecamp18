@@ -5,11 +5,12 @@ Created on Aug 31, 2018
 '''
 
 from selenium import webdriver
-#from pages import *
+#from pages import *h
 from pages.logInPage import LoginPage1, LogoutPage
 from pages.base import Page
 #from pages.LogInPage import *
-import logging, time, sys, ConfigParser, os
+import logging, time, sys, os
+    #ConfigParser, os
 import pytest, unittest
  
 # setting the logging module to the console
