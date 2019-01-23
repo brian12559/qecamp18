@@ -23,25 +23,30 @@ class createFVTTestRun(unittest.TestCase):
         self.polarion_project = 'Polarion'
 
 
-
     def tearDown(self):
         # close the browser
         logging.info("Function tearDown()")
 
     def test_createTR(self):
-        this_id = "POLA-2019-01-10"
-        this_title = "Stage, Pol 18.2, Imp2.0.23"
-        trsATs = ['TestCaseE_Accept', 'TestCaseI_Accept', 'ResI_Accept', 'ReqI_Accept']
-        trsFVTs = ['TestCaseI_Regress', 'ResI_Regress', 'ReqI_Regress']
+        this_id = "POLA-2019-01-24"
+        this_title = "Devel, Pol 18.2, Imp2.0.24, RH Temp 3.4"
+        this_title = "Stage, Pol 18.2, Imp2.0.24, RH Temp 3.4"
+        trsATs = ['TestCaseE_Accept', 'TestCaseI_Accept', 'ResI_Accept', 'ReqI_Accept', 'REQ_EXP_Accept']
+        trsFVTs = ['ReqI_Regress', 'TestCaseI_Regress'] #'ResI_Regress',
         logging.info("Creating Test Runs")
 
-        for x in trsFVTs:
+        for x in trsATs:
             logging.info("Creating Test Run-> %s" % x)
             tr = TestRun.create(self.polarion_project, this_id, x, this_title)
             time.sleep(3)
             for record in tr.records:
+                time.sleep(1)
                 logging.info("setting %s result to passed" % record.test_case_id)
-                tr.update_test_record_by_fields(record.test_case_id, test_result="passed", test_comment="OK", executed_by="bmurray",  executed=datetime.datetime.now(), duration=0.50)
+                #failing here so let's just try catch and repeat
+                try:
+                    tr.update_test_record_by_fields(record.test_case_id, test_result="passed", test_comment="OK", executed_by="bmurray",  executed=datetime.datetime.now(), duration=0.50)
+                except Exception as e:
+                    tr.update_test_record_by_fields(record.test_case_id, test_result="passed", test_comment="OK", executed_by="bmurray", executed=datetime.datetime.now(), duration=0.50)
             tr.update
 
 
