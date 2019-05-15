@@ -23,101 +23,61 @@ class LoginPage1(Page):
         return True if self.find_element(*LoginPageLocators.USERNAME) else False
     
     def enter_username(self, username):
-        self.driver.find_element(*LoginPageLocators.USERNAME).send_keys(username)
+        self.driver.find_element(*LoginPageLocators.USERNAMEXRAY).send_keys(username)
 
     def clear_username(self):
-        self.driver.find_element(*LoginPageLocators.USERNAME).clear()
+        self.driver.find_element(*LoginPageLocators.USERNAMEXRAY).clear()
         
-    def enter_password1(self, pw):
-        self.driver.find_element(*LoginPageLocators.PASSWORD1).send_keys(pw)
-        
-    def enter_password2(self, pw):
-        self.driver.find_element(*LoginPageLocators.PASSWORD2).send_keys(pw)        
-    
-    def enter_password3(self, pw):
-        self.driver.find_element(*LoginPageLocators.PASSWORD3).send_keys(pw)
-        
+    def enter_password(self, pw):
+        self.driver.find_element(*LoginPageLocators.PASSWORDXRAY).send_keys(pw)
+
     def clear_password(self):
-        self.driver.find_element(*LoginPageLocators.PASSWORD).clear()
+        self.driver.find_element(*LoginPageLocators.PASSWORDXRAY).clear()
     
     def click_login_button(self):
-        self.driver.find_element(*LoginPageLocators.SUBMIT).click()
+        self.driver.find_element(*LoginPageLocators.SUBMITXRAY).click()
 
     def click_rememeberme_box(self):
         self.driver.find_element(*LoginPageLocators.REMEMBERME).click()
         
-    def loginuser(self, username, pw, rememberme=False): #for devel and sr2
-        logging.info("Entering username: %s using %s" %(username, LoginPageLocators.USERNAME))
+    def loginuserxrayOLD(self, username, pw): #for devel and sr2
+        logging.info("Entering username: %s using %s" %(username, LoginPageLocators.USERNAMEXRAY))
         #might need clear
         self.enter_username(username)
-        logging.info("Entering password: %s using %s" %(pw, LoginPageLocators.PASSWORD3))
-        self.enter_password3(pw)
-        if rememberme:
-            logging.info("clicking 'stay logged in' using {0}".format(LoginPageLocators.REMEMBERME))
-            self.click_rememeberme_box()
-        logging.info("clicking 'LOG IN' button using {0}".format(LoginPageLocators.SUBMIT))
-        self.click_login_button()        
+        logging.info("Entering password: %s using %s" %(pw, LoginPageLocators.PASSWORDXRAY))
+        self.enter_password(pw)
+        logging.info("clicking 'LOG IN' button using {0}".format(LoginPageLocators.SUBMITXRAY))
+        self.click_login_button()
+        time.sleep(5)
 
-    def login_with_valid_user(self, username, pw, rememberme=False):
-        self.loginuser(username, pw, rememberme)
+    def loginuserxray(self, username, pw):  # for devel and sr2
+        logging.info("Entering username: %s using %s" % (username, LoginPageLocators.USERNAMEXRAY))
+        # might need clear
+        self.enter_username(username)
+        logging.info("Entering password: %s using %s" % (pw, LoginPageLocators.PASSWORDXRAY))
+        self.enter_password(pw)
+        logging.info("clicking 'LOG IN' button using {0}".format(LoginPageLocators.SUBMITXRAY))
+        startloading = time.time()
+        self.click_login_button()
+        elapsedtime = time.time() - startloading
+        while not (self.driver.find_element(*LoginPageLocators.ISSUEKEYXRAY)):
+            elapsedtime = time.time() - startloading
+            logging.info("still waiting...%s" % str(elapsedtime))
+            time.sleep(3)
+        ltime = str((time.time() - startloading))
+        logging.info("time to load XRAY -> %s" % ltime)
+        with open("/home/bmurray//LoginTime.csv", "a") as myfile:
+            myfile.write(time.ctime() + "," + ltime +  "\n")
+
+
+    def login_with_valid_user(self, username, pw):
+        self.loginuserxray(username, pw)
         return HomePage(self.driver)
 
     def login_with_invalid_user(self, username, pw, rememberme=False):
         self.loginuser(username, pw, rememberme)
         return self.find_element(*LoginPageLocators.ERROR_MESSAGE).text  
     
-    def polarion_ready(self):
-        try:
-            return self.driver.find_element(*LoginPageLocators.POLARION_LOGO)
-        except Exception as e:
-            return False
-    
-    def is_polarion_ready(self):
-        iX=0
-        while (not self.polarion_ready()) and iX<30:
-            iX=iX+1
-            time.sleep(1)
-            
-    def waitForPolarion(self, maxwaittime):
-        startloading = time.time()
-        try:  
-            self.driver.implicitly_wait(3)
-            elapsedtime = time.time() - startloading         
-            while (self.driver.find_element(*LoginPageLocators.LOADING) and elapsedtime < maxwaittime): 
-                elapsedtime = time.time() - startloading
-                logging.info("still waiting...%s" % str(elapsedtime))
-                time.sleep(3)
-            logging.info("Polarion did not finish loading in %s seconds" % str(maxwaittime))
-            return False
-        except Exception as e:
-            #do nothing...report has finished loading because we got an error looking for loading  
-            #setting default imlicit wait time back to 10
-            self.driver.implicitly_wait(10)   
-            logging.info("finished loading loading polarion")
-            logging.info("time to load Polarion -> %s" % str(time.time() - startloading))
-            return True
-        
-    def waitForPolarion2(self, maxwaittime):
-        startloading = time.time()
-        try:  
-            self.driver.implicitly_wait(3)
-            elapsedtime = time.time() - startloading         
-            while (self.driver.find_element(*LoginPageLocators.LOADING) and elapsedtime < maxwaittime): 
-                elapsedtime = time.time() - startloading
-                logging.info("still waiting...%s" % str(elapsedtime))
-                time.sleep(3)
-            logging.info("Polarion did not finish loading in %s seconds" % str(maxwaittime))
-            return False
-        except Exception as e:
-            #do nothing...report has finished loading because we got an error looking for loading  
-            #setting default imlicit wait time back to 10
-            self.driver.implicitly_wait(10)   
-            logging.info("finished loading loading polarion")
-            #need to take into account that the wait for loading waits x secs, so split the difference between last successful check
-            #and this one
-            ltime = str(((time.time() - startloading) + elapsedtime)/2 + 3)
-            logging.info("time to load Polarion -> %s" % ltime)
-            return ltime
 
 class LogoutPage(Page):
     def check_page_loaded(self):
