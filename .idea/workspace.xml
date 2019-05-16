@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="efa2bf8a-d0f2-4609-ab4d-4787e35c3dad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tests/XrayAPItest5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tests/testlabAPItest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PolarionLicenseUsage.ods" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PolarionLoginTimes.ods" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/LicenseCount.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/amazing.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/amazing1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/createFVTTestRuns.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/polarionLogin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/polarionLogin1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/polarionLogin1a.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/polarionLogin2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/polarionLogin3.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/XrayAPItest4.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="61" column="58" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
+              <folding>
+                <element signature="e#51#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/testlabAPItest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <folding>
+                <element signature="e#51#80#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tests/polarionLogin.py" />
+        <option value="$PROJECT_DIR$/tests/LicenseCount.py" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+        <option value="$PROJECT_DIR$/tests/polarionAPILogin.py" />
+        <option value="$PROJECT_DIR$/tests/createFVTTestRuns.py" />
+        <option value="$PROJECT_DIR$/tests/fixTestRun.py" />
+        <option value="$PROJECT_DIR$/tests/fixTestRun1.py" />
+        <option value="$PROJECT_DIR$/tests/testrailAPIaddtc.py" />
+        <option value="$PROJECT_DIR$/tests/testrailAPItest.py" />
+        <option value="$PROJECT_DIR$/tests/testlabAPItest.py" />
+        <option value="$PROJECT_DIR$/tests/spiraTestAPItest.py" />
+        <option value="$PROJECT_DIR$/tests/fixheaderTC.py" />
+        <option value="$PROJECT_DIR$/tests/ptAPItest.py" />
+        <option value="$PROJECT_DIR$/tests/loadResultsPT.py" />
+        <option value="$PROJECT_DIR$/tests/XrayAPItest2.py" />
+        <option value="$PROJECT_DIR$/tests/XrayAPItest3.py" />
+        <option value="$PROJECT_DIR$/tests/test" />
+        <option value="$PROJECT_DIR$/tests/codeBeamerAPItest.py" />
+        <option value="$PROJECT_DIR$/tests/xrayResults" />
+        <option value="$PROJECT_DIR$/tests/xrayres" />
+        <option value="$PROJECT_DIR$/tests/XrayAPItest.py" />
+        <option value="$PROJECT_DIR$/tests/XrayAPItest5.py" />
+        <option value="$PROJECT_DIR$/pages/logInPage.py" />
+        <option value="$PROJECT_DIR$/tests/xrayLogin.py" />
+        <option value="$PROJECT_DIR$/tests/XrayAPItest4.py" />
+        <option value="$PROJECT_DIR$/locators/loginLocators.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="toolnext" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toolnext" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="toolnext" type="b2602c69:ProjectViewProjectNode" />
+              <item name="toolnext" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="qecamp18" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="qecamp18" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python tests.Unittests in XrayAPItest4.py">
+    <configuration name="LicenseCount" type="PythonConfigurationType" factoryName="Python">
+      <module name="qecamp18" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/LicenseCount.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in XrayAPItest4.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="qecamp18" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/XrayAPItest4.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in XrayAPItest5.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="qecamp18" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/XrayAPItest5.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in XrayAPItest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="qecamp18" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/XrayAPItest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in codeBeamerAPItest.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="qecamp18" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/codeBeamerAPItest.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in xrayLogin.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="qecamp18" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/xrayLogin.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests in XrayAPItest4.py" />
+        <item itemvalue="Python tests.Unittests in xrayLogin.py" />
+        <item itemvalue="Python tests.Unittests in codeBeamerAPItest.py" />
+        <item itemvalue="Python tests.Unittests in XrayAPItest5.py" />
+        <item itemvalue="Python tests.Unittests in XrayAPItest.py" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="efa2bf8a-d0f2-4609-ab4d-4787e35c3dad" name="Default Changelist" comment="" />
+      <created>1546864842699</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1546864842699</updated>
+    </task>
+    <task id="LOCAL-00001" summary="removed unneeded import">
+      <created>1546871367047</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546871367047</updated>
+    </task>
+    <task id="LOCAL-00002" summary="script to create FVT and AT test runs for Importer">
+      <created>1547133300029</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547133300029</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fixes to script to create FVT and AT test runs for Importer">
+      <created>1548263316976</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548263316976</updated>
+    </task>
+    <task id="LOCAL-00004" summary="new locaators for other tools">
+      <created>1557937913805</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1557937913805</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new locaators for other tools">
+      <created>1557937925153</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1557937925153</updated>
+    </task>
+    <task id="LOCAL-00006" summary="3500 RHEL test cases from Polarion ready for import">
+      <created>1557938902027</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1557938902027</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_in_xrayLogin_py - 2019.05.14 at 09h 17m 18s.xml">
+      <configuration name="Unittests in xrayLogin.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_xrayLogin_py - 2019.05.14 at 09h 18m 36s.xml">
+      <configuration name="Unittests in xrayLogin.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_xrayLogin_py - 2019.05.14 at 09h 19m 52s.xml">
+      <configuration name="Unittests in xrayLogin.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_xrayLogin_py - 2019.05.14 at 09h 23m 25s.xml">
+      <configuration name="Unittests in xrayLogin.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_xrayLogin_py - 2019.05.15 at 09h 38m 01s.xml">
+      <configuration name="Unittests in xrayLogin.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_XrayAPItest4_py - 2019.05.15 at 09h 38m 11s.xml">
+      <configuration name="Unittests in XrayAPItest4.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_XrayAPItest4_py - 2019.05.15 at 09h 40m 29s.xml">
+      <configuration name="Unittests in XrayAPItest4.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_XrayAPItest4_py - 2019.05.15 at 09h 41m 24s.xml">
+      <configuration name="Unittests in XrayAPItest4.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_XrayAPItest4_py - 2019.05.15 at 09h 43m 11s.xml">
+      <configuration name="Unittests in XrayAPItest4.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_XrayAPItest4_py - 2019.05.15 at 09h 49m 59s.xml">
+      <configuration name="Unittests in XrayAPItest4.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="27" width="1920" height="1020" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1793249" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32992035" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994726" visible="true" weight="0.31513083" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37201366" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32992035" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4994726" visible="true" weight="0.32992035" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32992035" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052744" side_tool="true" visible="true" weight="0.32992035" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32992035" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1793249" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32992035" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4994726" visible="true" weight="0.4516496" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37201366" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32992035" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32992035" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32992035" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052744" side_tool="true" weight="0.3287827" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.32992035" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/pylarion" />
+    </ignored-roots>
+    <MESSAGE value="removed unneeded import" />
+    <MESSAGE value="script to create FVT and AT test runs for Importer" />
+    <MESSAGE value="fixes to script to create FVT and AT test runs for Importer" />
+    <MESSAGE value="new locaators for other tools" />
+    <MESSAGE value="3500 RHEL test cases from Polarion ready for import" />
+    <option name="LAST_COMMIT_MESSAGE" value="3500 RHEL test cases from Polarion ready for import" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/testrailAPItest.py</url>
+          <line>33</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/loadResultsPT.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/loadResultsPT.py</url>
+          <line>85</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/XrayAPItest3.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/XrayAPItest3.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/XrayAPItest2.py</url>
+          <line>61</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/XrayAPItest3.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/XrayAPItest3.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/xrayLogin.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/venv/lib64/python3.4/site-packages/selenium/webdriver/remote/errorhandler.py" />
+    <entry file="file://$PROJECT_DIR$/tests/geckodriver.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pylarion/src/pylarion/work_item.py" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test.ini">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///usr/lib64/python2.7/unittest/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="230" selection-start-line="230" selection-end-line="230" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/polarionAPILogin.py" />
+    <entry file="file://$PROJECT_DIR$/tests/res.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/fixTestRun1.py" />
+    <entry file="file://$PROJECT_DIR$/tests/createFVTTestRuns.py" />
+    <entry file="file://$PROJECT_DIR$/tests/fixTestRun.py" />
+    <entry file="file://$PROJECT_DIR$/tests/fixheaderTC.py" />
+    <entry file="file://$PROJECT_DIR$/tests/testrailAPIaddtc.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="27" column="86" selection-start-line="27" selection-start-column="86" selection-end-line="27" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/spiraTestAPItest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/amazing.py" />
+    <entry file="file://$PROJECT_DIR$/tests/amazing1.py" />
+    <entry file="file://$PROJECT_DIR$/tests/ptAPItest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="62" column="1" selection-start-line="62" selection-start-column="1" selection-end-line="63" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/xrayResults" />
+    <entry file="file://$PROJECT_DIR$/tests/loadResultsPT.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+          <folding>
+            <element signature="e#51#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/codeBeamerAPItest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="53" column="75" selection-start-line="53" selection-start-column="75" selection-end-line="53" selection-end-column="75" />
+          <folding>
+            <element signature="e#51#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/xrayres">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret column="483" selection-start-column="483" selection-end-column="483" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/XrayAPItest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="95" selection-start-line="29" selection-start-column="95" selection-end-line="29" selection-end-column="95" />
+          <folding>
+            <element signature="e#51#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LoginTime.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LicenseCount.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/polarionLogin2.py" />
+    <entry file="file://$PROJECT_DIR$/tests/polarionLogin1a.py" />
+    <entry file="file://$PROJECT_DIR$/tests/polarionLogin1.py" />
+    <entry file="file://$PROJECT_DIR$/tests/polarionLogin.py" />
+    <entry file="file://$PROJECT_DIR$/tests/polarionLogin3.py" />
+    <entry file="file:///usr/lib64/python2.7/logging/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="1226" selection-start-line="1226" selection-end-line="1226" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/LicenseCount.py" />
+    <entry file="file:///usr/lib/python2.7/site-packages/selenium/webdriver/remote/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="977" selection-start-line="977" selection-end-line="977" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib64/python2.7/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="368" selection-start-line="368" selection-end-line="368" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/logInPage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="64" column="65" lean-forward="true" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
+          <folding>
+            <element signature="e#77#104#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret column="654" selection-start-column="652" selection-end-column="659" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/XrayAPItest3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/XrayAPItest2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="52" column="39" selection-start-line="52" selection-start-column="39" selection-end-line="52" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/locators/loginLocators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/XrayAPItest5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="29" column="102" lean-forward="true" selection-start-line="29" selection-start-column="102" selection-end-line="29" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/xrayLogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/XrayAPItest4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="61" column="58" selection-start-line="61" selection-start-column="58" selection-end-line="61" selection-end-column="58" />
+          <folding>
+            <element signature="e#51#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/testrailAPItest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="43" lean-forward="true" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+          <folding>
+            <element signature="e#51#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/testlabAPItest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#51#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
