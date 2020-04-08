@@ -22,6 +22,7 @@ class XrayAPItest(unittest.TestCase):
     def tearDown(self):
         #close the browser
         logging.info("Function tearDown()")
+        ##test comment
 
     def test_login(self):
 
